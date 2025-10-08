@@ -1,0 +1,16 @@
+[package]
+name = "stream_time_scraper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.47", features = ["full"] }
+reqwest = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+scraper = "0.24"
+chrono = "0.4"
+anyhow = "1.0"
+chrono-tz = "0.10"
+rust_xlsxwriter = "0.90"
+csv = "1.3"
